@@ -1,0 +1,131 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* Свойства для сброса начальных стилей элементов */
+}
+
+body {}
+
+header {
+    width: 1440px;
+    height: 70px;
+    background: #2965f1;
+    /* Стили для хедера */
+}
+
+header span {
+    /* Стили для текста в хедере IT-INCUBATOR */
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.main-section {
+    width: 1440px;
+    height: 1024px;
+    background: #fafaff;
+    /* Стили для первой секции */
+}
+
+.main-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    /* Стили для заголовка в первой секции */
+}
+
+.main-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
+    /* Стили для текста в первой секции */
+}
+
+.main-image {
+    width: 715px;
+    height: 508px;
+    fill: #fafaff;
+    /* Стили для изображения в первой секции */
+}
+
+
+.about-section {
+    width: 1440px;
+    height: 883px;
+    /* Стили для второй секции */
+}
+
+select {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    fill: rgba(48, 48, 48, 0.8);
+    /* Стили для выпадающего списка */
+}
+
+.section-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    /* Стили для заголовков во второй секции */
+}
+
+.frameworks-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    width: 80px;
+    height: 57px;
+    background: #fff;
+    fill: #2965f1;
+    /* Стили для маркированного списка во второй секции */
+}
+
+.books-list {
+    /* Стили для нумерованного списка во второй секции */
+}
+
+.label {
+    /* Стили для подписей чекбоксов */
+}
+
+.text-field {
+    /* Стили для односточного поля ввода текста */
+}
+
+.btn {
+    /* Стили для кнопки */
+}
+
+.line {
+    /* Стили для линии */
+}
+
+table {
+    /* Стили для таблицы */
+}
+
+th, td {
+    /* Стили для ячеек таблицы */
+}
+
+footer {
+    /* Стили для футера */
+}
+
+.footer-link {
+    /* Стили для футера */
+}
